@@ -1,7 +1,0 @@
-from aiogram.filters import Filter
-from aiogram.types import Message
-
-
-class SubscribedFilter(Filter):
-    async def __call__(self, message: Message) -> bool:
-        return True
